@@ -1,0 +1,89 @@
+html{
+
+}
+body{
+background-color: #7f1417;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    height: 9vw;
+    width: 60vw;
+    border-radius: 100vw;
+}
+h1{
+    align-items: end;
+    font-size: 8hw;
+}
+.header{
+    display: flex;
+
+    
+    justify-content: center;
+    align-items: center;
+
+}
+h1{
+
+}
+.barra-de-navegacao{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.hamb{
+    background-color: black;
+    padding: 10px;
+    width: 120px;
+    height: 6vw;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: all 400ms linear; /* todas, tempo, constancia*/
+
+}
+.hamb:hover{
+    background-color: black;
+    padding: 10px;
+    width: 120px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(251, 60, 60);
+    text-decoration: none;
+}
+.recheio{
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+.pao_cima{
+    background-color: rgb(232, 255, 255);    border: solid 2px black;
+    width: auto;
+    height: 30px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 8%;
+    border-bottom-right-radius: 8%;
+}
+.pao_baixo{
+    background-color: rgb(232, 255, 255);    border: solid 2px black;
+    width: auto;
+    height: 25px;
+    border-top-left-radius: 8%;
+    border-top-right-radius: 8%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
