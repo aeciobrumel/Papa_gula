@@ -17,7 +17,13 @@ body {
   margin: 0 auto;
   padding: 1.5rem;
 }
-
+#texto-logo {
+  color: aliceblue;
+  font-size: 3rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: bold;
+}
 header {
   background-color: red;
 }
@@ -29,8 +35,8 @@ header {
 }
 
 .logo {
-  width: 64px;
-  height: 64px;
+  width: 84px;
+  height: 74px;
 }
 
 main {
@@ -39,7 +45,12 @@ main {
   flex-direction: column;
   gap: 3rem;
 }
+.banner {
+  width: 100vh;
 
+  background-color: red;
+  min-height: 3rem;
+}
 footer {
   background-color: red;
 }
