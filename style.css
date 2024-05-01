@@ -45,11 +45,48 @@ main {
   flex-direction: column;
   gap: 3rem;
 }
+.box-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#texto-menu {
+  display: flex;
+  align-items: center;
+}
+.texto-centralizado {
+  width: 40rem;
+  font-size: 1.8rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: bold;
+}
+.div-button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 .banner {
   width: 100vh;
-
   background-color: red;
   min-height: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pontos-fortes {
+  width: 100%;
+  display: flex;
+  background-color: aliceblue;
+  justify-content: space-around;
+}
+.conteudo-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 footer {
   background-color: red;
