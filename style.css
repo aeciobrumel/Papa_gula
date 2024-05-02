@@ -55,16 +55,31 @@ main {
   align-items: center;
 }
 .texto-centralizado {
-  width: 40rem;
-  font-size: 1.8rem;
+  width: 17rem;
+  font-size: 1.5rem;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: bold;
+}
+#primeira-imagem {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 10rem;
 }
 .div-button {
   width: 100%;
   display: flex;
   justify-content: center;
+}
+button {
+  width: 8rem;
+  height: 3rem;
+  background-color: cornflowerblue;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: bold;
+  border-radius: 2rem;
+  border: 2px solid red;
 }
 .banner {
   width: 100vh;
