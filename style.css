@@ -50,11 +50,15 @@ main {
   align-items: center;
   justify-content: space-evenly;
 }
+.imagem-formatada {
+  border-radius: 240px;
+}
 #texto-menu {
   display: flex;
   align-items: center;
 }
 .texto-centralizado {
+  border-radius: 1rem;
   width: 17rem;
   font-size: 1.5rem;
   font-family: "Poppins", sans-serif;
@@ -62,8 +66,8 @@ main {
   font-style: bold;
 }
 #primeira-imagem {
-  width: 20rem;
-  height: 20rem;
+  width: 35rem;
+  height: 35rem;
   border-radius: 10rem;
 }
 .div-button {
