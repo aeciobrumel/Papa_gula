@@ -87,7 +87,11 @@ header .menu-icon div {
 }
 
 .section-content {
+  background-color: #1e1e1e;
+  border-radius: 1rem;
   display: flex;
+  flex: 2;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 
@@ -116,7 +120,7 @@ main {
   display: flex;
   align-items: center;
   flex-direction: column;
-  border: 5px solid #464646;
+  border: 5px solid ##1e1e1e;
   border-radius: 30px;
 }
 .box-text {
@@ -135,15 +139,13 @@ main {
   padding: 0 1rem;
 }
 .box-image {
-  background-color: #464646;
-
   height: fit-content;
   border-radius: 1.5rem;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
 }
 .box-image img {
-  background-color: #464646;
+  background-color: #1e1e1e;
   width: 22rem;
   height: fit-content;
   border-radius: 1.5rem;
@@ -238,7 +240,6 @@ footer {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    border: 5px solid #464646;
   }
   p {
     font-size: large;
