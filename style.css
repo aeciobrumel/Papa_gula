@@ -255,6 +255,8 @@ footer {
   }
 }
 
+/* MENU STYLES */
+
 .menu {
   transform: translateX(-100%);
   transition: all 0.5s ease-in-out;
@@ -266,7 +268,7 @@ footer {
   color: white;
 }
 
-.menu__active {
+.menu--active {
   transform: translateX(0);
 }
 
@@ -342,6 +344,8 @@ footer {
     display: none;
   }
 }
+
+/* FOOTER STYLES */
 
 .footer {
   padding-block: 1rem;
