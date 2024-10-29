@@ -274,6 +274,7 @@ footer {
 
 .menu-open {
   display: flex;
+  right: 20px;
 }
 
 .menu-body {
